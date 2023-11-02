@@ -4,6 +4,8 @@ This is a PyTorch project that implements Grad-CAM (Gradient-weighted Class Acti
 
 ## Installation
 
+![Sample Result for an Elephant Image](result.png)
+
 To set up the project on your local machine, follow these steps:
 
 1. Clone the repository to your local machine:
