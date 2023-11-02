@@ -37,6 +37,10 @@ To generate heatmaps for images using Grad-CAM, you can run the project with the
 
 ```bash
 python main.py --class_choice <class_name> --img_path <image_path> --model_name <model_name>
+```
+
+
+
 Where:
 
 class_choice: Choose the target class name (e.g., "elephant" or "bear").
@@ -48,4 +52,6 @@ class_choice: "elephant"
 img_path: "ILSVRC2012_val_00025941.JPEG"
 model_name: "resnet"
 You can adjust these command-line arguments according to your specific use case.
+
+If you like to use different models other than resnet50 and alexnet, make sure that you get the outputs of the last conv layer in the get_features function in utils.py and modify the tensor sizes for each architecture respectively. 
 
